@@ -45,3 +45,11 @@ O
 ```$ pip install basemap-1.1.0-cp27-cp27m-win_amd64.whl```
 
 [Webgrafía](https://stackoverflow.com/questions/18109859/how-to-install-matplotlib-basemap-module-on-windows-7-with-winpython-or-any-pyt)
+
+### Instalar proyecto
+
+* Desde consola acceder a la ruta donde se instalara el proyecto: ```$ cd Documents/PYTHON/```
+* Clonar repositorio 
+```git clone https://github.com/lynnetsy/pract0_projections.git projections```
+* Desde la consola acceder al proyecto: ```$ cd projections/```
+* Ejecutar archivo index.py: ```$ python index.py```
