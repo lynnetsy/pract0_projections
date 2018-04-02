@@ -6,13 +6,13 @@
 
 * Descargar python 2.7 desde el [sitio oficial](https://www.python.org/downloads/)
 * Ejecutar el archivo descargado
-* Seguir las instrucciones de instalación 
+* Seguir las instrucciones de instalación
 * Agregar la ruta de instalación de python (C://Python27) a las variables de entorno de windows
 
 ### Instalar pip
 
 * Descargar el archivo de instalacion desde [aquí](https://bootstrap.pypa.io/get-pip.py)
-* Desde el cmd ir a la ruta donde se descargó el archivo por ejemplo: 
+* Desde el cmd ir a la ruta donde se descargó el archivo por ejemplo:
 ```$ cd Downloads```
 * Ejecutar el archivo desde cmd:
 ```$ python get-pip.py```
@@ -35,7 +35,7 @@
 
 #### Basemap
 
-* Descargar desde [http://www.lfd.uci.edu/~gohlke/pythonlibs/](http://www.lfd.uci.edu/~gohlke/pythonlibs/) el archivo 
+* Descargar desde [http://www.lfd.uci.edu/~gohlke/pythonlibs/](http://www.lfd.uci.edu/~gohlke/pythonlibs/) el archivo
 	* basemap-1.1.0-cp27-cp27m-win32.whl para windows de 32 bits
 	* basemap-1.1.0-cp27-cp27m-win_amd64.whl para windows de 64bits
 * Mover el archivo descargado a la carpeta de instalación de python (C://Python27)
@@ -46,10 +46,14 @@ O
 
 [Webgrafía](https://stackoverflow.com/questions/18109859/how-to-install-matplotlib-basemap-module-on-windows-7-with-winpython-or-any-pyt)
 
+#### Imageio
+
+* Desde consola instalar imageio con pip: ```$ pip install imageio```
+
 ### Instalar proyecto
 
 * Desde consola acceder a la ruta donde se instalara el proyecto: ```$ cd Documents/PYTHON/```
-* Clonar repositorio 
+* Clonar repositorio
 ```git clone https://github.com/lynnetsy/pract0_projections.git projections```
 * Desde la consola acceder al proyecto: ```$ cd projections/```
 * Ejecutar archivo index.py: ```$ python index.py```
