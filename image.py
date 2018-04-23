@@ -13,4 +13,5 @@ def createGif(name, path, gifPath):
     for img in imgs:
         images.append(imageio.imread(img))
 
-    imageio.mimsave("{0}/{1}.gif".format(gifPath, name), images)
+    if len(images) > 0:
+        imageio.mimsave("{0}/{1}.gif".format(gifPath, name), images)
