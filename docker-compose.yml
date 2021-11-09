@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  numpy:
+    container_name: numpy
+    build: .
+    volumes: 
+      - ./:/app
+
+      ##PARA INICIAR PYTHON USAR EL COMANDO PRIMERO 
+      ##docker compose-up -d 
+      ## luego utilizar el comando 
+      ##python tuprograma.py
+      
