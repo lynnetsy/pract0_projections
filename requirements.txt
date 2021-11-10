@@ -1,4 +1,8 @@
-numpy
-Matplotlib
-Basemap
-Imageio
+numpy>=1.21.4
+Matplotlib>=3.4.3
+Imageio>=2.10.3
+#GEOS>=0.2.3
+#Shapely>=1.8.0
+#pyshp>=2.1.3
+#cython>=0.29.24
+#Proj4>=4.9.0
